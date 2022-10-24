@@ -1,0 +1,24 @@
+name: "ASKI"
+author: "Imène"
+
+category: crypto
+difficulty: easy
+
+description: |
+  >  Since computer understands binary language, how on earth do characters make sense to it?  
+  **Author** : Imène
+value: 100
+type: standard
+
+flags:
+  - shellmates{4sCiI_tr4nsl4t3s_Ch4Rs_t0_InTs}
+
+tags:
+  - ASCII
+
+files:
+  - ./enc
+
+state: visible
+
+version: "0.1"
