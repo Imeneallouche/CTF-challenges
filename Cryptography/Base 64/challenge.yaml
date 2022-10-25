@@ -14,7 +14,7 @@ flags:
   - shellmates{b64_c0nv3rts_Byt3s_t0_ASCII}
 
 tags:
-  - ASCII
+  - Base64
 
 files:
   - ./enc
