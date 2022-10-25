@@ -19,5 +19,4 @@ for i in ENCRYPTED_TEXT:
             shift = 97
 
         j = (shift-(ord(i)-int(KEY))) % n + shift
-        print('okay let')
 print(flag)
