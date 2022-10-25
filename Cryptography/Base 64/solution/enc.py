@@ -3,7 +3,7 @@ import sys
 
 
 if len(sys.argv) != 2:
-    print("[-] Usage: pyhton3 solve.py <ENCRYPTED TEXT>")
+    print("[-] Usage: pyhton3 solve.py <PLAIN TEXT>")
     sys.exit()
 
 PLAIN_TEXT = sys.argv[1]
