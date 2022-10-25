@@ -1,4 +1,4 @@
-<h1 align="center"><b>ASCII Encoding<b><h1>
+<h1 align="center"><b>ASCII Encoding<b></h1>
 
 <hr>
 <p aling="center">
