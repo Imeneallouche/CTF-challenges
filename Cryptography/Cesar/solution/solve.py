@@ -7,16 +7,20 @@ if len(sys.argv) != 3:
 
 ENCRYPTED_TEXT = sys.argv[1]
 KEY = sys.argv[2]
-print(KEY)
+
 n = 26
 flag = ''
 
 for i in ENCRYPTED_TEXT:
-    if isalpha(i):
-        if islower(i):
-            shift = 65
-        else:
+    if i.isalpha():
+        if i.islower():
             shift = 97
+        else:
+            shift = 65
 
-        j = (shift-(ord(i)-int(KEY))) % n + shift
+        j = ord(i)-int(KEY)-shift
+        flag += chr(j % n + shift)
+    else:
+        flag += i
+
 print(flag)
