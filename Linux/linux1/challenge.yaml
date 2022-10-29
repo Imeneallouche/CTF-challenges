@@ -4,9 +4,9 @@ author: "Imène"
 category: linux
 
 description: |
-  > Getting used to using terminal the simplest actions.
-  **Connect with**: ssh -p 2222 lm3ne@linux.mk.shellmates.me  
-  **Password** : miniCTF 
+  > what a day, it is raining cats and dogs isn't it?
+  **Connect with**: ssh lm3ne@host -p 2220
+  **Password** : miniCTFLinux1
   **Author** : Imène
 
 value: 500

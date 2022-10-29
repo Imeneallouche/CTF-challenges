@@ -5,7 +5,7 @@ RUN apt-get update && \
 
 
 RUN useradd -m -d /home/lm3ne -s /bin/bash lm3ne
-RUN echo 'lm3ne:miniCTF' | chpasswd
+RUN echo 'lm3ne:miniCTFLinux1' | chpasswd
 
 #COPY THE flag.txt FILE FROM LOCAL TO THE CONTAINER
 COPY flag.txt /home/lm3ne/flag.txt
