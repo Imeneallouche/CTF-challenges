@@ -1,0 +1,24 @@
+name: "Linux1"
+author: "Imène"
+
+category: linux
+
+description: |
+  > Getting used to using terminal the simplest actions.
+  **Connect with**: ssh -p 2222 lm3ne@linux.mk.shellmates.me  
+  **Password** : miniCTF 
+  **Author** : Imène
+
+value: 500
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{Y0u_c4ught_M3_Cat_c0mm4nd_must_h4v3_h3lp3ed}
+
+state: hidden
+
+version: "0.1"
