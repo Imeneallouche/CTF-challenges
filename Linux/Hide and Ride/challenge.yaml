@@ -5,7 +5,7 @@ category: linux
 
 description: |
   > Are you able to see all of what is being hidden underneath the hood?
-  **Connect with**: ssh -p  lm3ne@linux.mk.shellmates.me  
+  **Connect with**: ssh lm3ne@host -p 2021 
   **Password** : miniCTFHideAndRide
   **Author** : Imène
 
