@@ -5,10 +5,12 @@ RUN apt-get update && \
 
 
 RUN useradd -m -d /home/lm3ne -s /bin/bash lm3ne
-RUN echo 'lm3ne:miniCTF' | chpasswd
+RUN echo 'lm3ne:miniCTFHideAndRide' | chpasswd
 
 #COPY THE flag.txt FILE FROM LOCAL TO THE CONTAINER
-COPY flag.txt /home/lm3ne/flag.txt
+COPY challenge/.flag.txt /home/lm3ne/.flag.txt
+COPY challenge/fake_flag.txt /home/lm3ne/fake_flag.txt
+
 #WORKING DIRECTORY
 WORKDIR /home/lm3ne
 #MAKE A LINK TO 
