@@ -3,7 +3,7 @@
 <p> The solution is pretty much easy, there is what we call hidden files and directories in Linux, they are all anticipated with a dot in their names</p>
 <p>in order to see all the files and directories (the hidden and the none hidden ones) we can type the command:</p>
 
-```Bash
+```yaml
 ls -a
 cat .flag.txt
 ```
