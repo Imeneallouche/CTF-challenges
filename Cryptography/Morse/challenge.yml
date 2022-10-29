@@ -1,0 +1,25 @@
+name: "Morse"
+author: "Imène"
+
+category: crypto
+difficulty: easy
+
+description: |
+  > it's time to decrypt some morse Code
+  wrap the answer around shellmates{}
+  **Author** : Imène
+value: 200
+type: standard
+
+flags:
+  - shellmates{D3CRYPTING_M0RSE_3ASI3R_TH4N_RIDING_H0RSE}
+
+tags:
+  - Morse
+
+files:
+  - ./enc
+
+state: visible
+
+version: "0.1"

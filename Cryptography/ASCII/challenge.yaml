@@ -1,11 +1,11 @@
-name: "ASK EY"
+name: "ASCII"
 author: "Imène"
 
 category: crypto
 difficulty: easy
 
 description: |
-  >  Since computer understands binary language, how on earth do characters make sense to it?  
+  >  I am pretty sure you have heard about ASCII haven't you?
   **Author** : Imène
 value: 100
 type: standard

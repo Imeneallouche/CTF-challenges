@@ -5,9 +5,12 @@ category: crypto
 difficulty: easy
 
 description: |
-  >   
+  >  Too many bases out there, don't you think?
+  There is one out there that converts Bytes to ASCII, have you heard about it?
+  The 64th one must be a thing
   **Author** : Imène
-value: 100
+
+value: 200
 type: standard
 
 flags:

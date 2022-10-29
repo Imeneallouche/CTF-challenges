@@ -1,20 +1,20 @@
-name: "From Base to maze"
+name: "Hex"
 author: "Imène"
 
 category: crypto
 difficulty: easy
 
 description: |
-  >   
+  > Binary, octal , decimal ...Any other bases you heard about?
   **Author** : Imène
-value: 100
+value: 200
 type: standard
 
 flags:
-  - shellmates{b64_c0nv3rts_Byt3s_t0_ASCII}
+  - shellmates{H3x_3nc0dinG_m4Y_b3_fuN_Huh}
 
 tags:
-  - Base64
+  - Hex
 
 files:
   - ./enc

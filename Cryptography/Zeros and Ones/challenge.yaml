@@ -1,0 +1,25 @@
+name: "Zeros and Ones"
+author: "Imène"
+
+category: crypto
+difficulty: easy
+
+description: |
+  >  Since computer understands binary language, how on earth do characters make sense to it?  
+  **Author** : Imène
+value: 100
+type: standard
+
+flags:
+  - shellmates{I_w4s_hidinG_B3hind_z3r0s_4nd_0nes}
+
+tags:
+  - Binary
+  - 01 encoding
+
+files:
+  - ./enc
+
+state: visible
+
+version: "0.1"
