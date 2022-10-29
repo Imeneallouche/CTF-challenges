@@ -7,7 +7,7 @@ Author: <a href='https://github.com/Imeneallouche'>Imene</a>
 ```yaml
 Description: what a day, it is raining cats and dogs isn't it?
 Connect with: ssh lm3ne@host -p 2220
-Password: miniCTFHideAndRide
+Password: miniCTFLinux1
 ```
 
 <h2>solution</h2>
