@@ -1,0 +1,24 @@
+name: "Hide and Ride"
+author: "Imène"
+
+category: linux
+difficulty: baby
+
+description: |
+  > Are you able to see all of what is being hidden underneath the hood?
+  **Password** : ctf
+  **Author** : Imène
+connection_info: ssh -p port ctf@ip
+value: 50
+type: dynamic
+
+decay: 15
+
+minimum: 50
+
+flags:
+  - shellmates{N0!_I_w4S_Pr3tty_SuR3_I_hld_W3ll}
+
+state: hidden
+
+version: "0.1"
